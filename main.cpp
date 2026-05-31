@@ -1,4 +1,4 @@
-//w tym kodzie wprowadzono zmiany..
+//Kod działa prawidłowo
 
 #include <iostream>
 #include <string>
@@ -91,14 +91,14 @@ void calfp(int frates[][3], int fac_rate)
 int main()
 {
     int frates[5][3] = {
-        { 0, 1, 0 },//zmiana złozoności komponenetu
+        { 0, 1, 0 },
         { 0, 1, 0 },
         { 0, 3, 0 },
         { 0, 1, 0 },
         { 0, 3, 0 }
     };
 
-    int fac_rate = 2;//zmiana czynnika modyfikującego
+    int fac_rate = 2;
 
     calfp(frates, fac_rate);
 
